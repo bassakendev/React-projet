@@ -1,0 +1,117 @@
+.contener{
+width: 50vw;
+margin: 10px auto 0px auto;
+border: 2px solid aquamarine;
+display: flex;
+flex-direction: column;
+border-radius: 10px;
+box-shadow: 2px 4px 6px 6px gray;
+}
+.creat-task{
+    border: 2px solid gray;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width:70% ;
+    height: 150px;
+    background-color: gray;
+    align-self: center;
+    border-radius: 5px;
+}
+
+.creat-task input{
+margin: 5px;
+height: 100%;
+outline-style: none;
+color: gray;
+border-radius: 7px;
+}
+
+.creat-task button{
+    height: 70%;
+    width: 40%;
+    align-self: center;
+    margin: 10px;
+    background-color: aquamarine;
+    color: gray;
+    border-radius: 15px;
+}
+
+.taskList{
+border: 1px solid gray;
+margin: 15px;
+padding: 10px;
+height: 400px;
+overflow-y: scroll;
+}
+
+.taskList h1{
+color: aquamarine;
+}
+
+.taskList div{
+    color: gray;
+    margin: 15px;
+    }
+
+    .taskList button{
+        height: 3%;
+        padding: 5px;
+        background-color: aquamarine;
+        color: gray;
+        border-radius: 10px;
+        margin-right: 5px;
+    }
+
+    .taskList em{
+        color: aquamarine;
+    }
+
+    .taskList::-webkit-scrollbar{
+        width: 3px;
+        background-color: gray;
+        border-radius: 7px;
+    }
+
+    .taskList::-webkit-scrollbar-thumb{
+        width: 7px;
+        background-color: aquamarine;
+        border-radius: 7px;
+    }
+
+    .search{
+        display: flex;
+        justify-content: space-between;
+        padding: 2px;
+        margin: auto;
+        width: 80%;
+        height: 40px;
+        background-color: aquamarine;
+        border-radius: 5px;
+    }
+
+    .search input{
+       background-color: white;
+       border-radius: 7px;
+       height: 100%;
+       border: 1px solid aquamarine;
+       outline-style: none;
+       color: gray;
+       flex: 1;
+    }
+
+    .search button{
+       background-color: gray;
+       color: aquamarine;
+       margin:5px;
+       width: 25%;
+       border-radius: 5px;
+     }
+
+     .false{
+        display: none;
+     }
+
+     .disp{
+        display: none;
+     }
